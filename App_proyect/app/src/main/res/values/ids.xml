@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="listaCarrito" type="id" />
+    <item name="itemNombreCarrito" type="id" />
+    <item name="listaPrincipal" type="id" />
+</resources>

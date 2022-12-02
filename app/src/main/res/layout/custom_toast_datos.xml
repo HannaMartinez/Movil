@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_custom_toast_datos"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:gravity="center|center_horizontal"
+    android:layout_width="wrap_content"
+    android:background="@drawable/background_blue"
+    android:layout_height="wrap_content">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_datos"/>
+    <TextView
+        android:id="@+id/txtMensajeToast3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingStart="10dp"
+        android:text="Debes Llenar los Campos"
+        android:textColor="#fff"/>
+
+
+
+</LinearLayout>

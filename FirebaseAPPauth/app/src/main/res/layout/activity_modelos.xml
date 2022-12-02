@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="271dp"
+            android:layout_height="220dp"
+            android:contentDescription="@string/all"
+            app:srcCompat="@drawable/logo1"
+            tools:ignore="VectorDrawableCompat" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="UseCompoundDrawables">
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="103dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/iphine_11"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="103dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/huawei_p30_pro"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="103dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/huawei_p40lite"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="103dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/huawei_y9"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="103dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/huawei_p20_lite"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="463dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="103dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/iphine_12_max"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="103dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/iphone_11pro"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="588dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="103dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/huawei_nova5t"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="593dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="103dp"
+        android:layout_height="110dp"
+        app:srcCompat="@drawable/iphon_xs_max"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="588dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

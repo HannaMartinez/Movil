@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnBarras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grafica de Burbujas"
+        android:backgroundTint="@color/Morado_Pastel"/>
+
+    <Button
+        android:id="@+id/btnBurbuja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grafica de Barras"
+        android:backgroundTint="@color/Pastel_M1"/>
+
+    <Button
+        android:id="@+id/btnHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grafica de Barras Horizontal"
+        android:backgroundTint="@color/Pastel_M2"/>
+
+    <Button
+        android:id="@+id/btnTelaraña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grafica de Telaraña"
+        android:backgroundTint="@color/Pastel_Az1"/>
+
+    <Button
+        android:id="@+id/btnOndulada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grafica De Ondas"
+        android:backgroundTint="@color/Pastel_Az2"/>
+
+    <Button
+        android:id="@+id/btnLinea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grafica de Lineas"
+        android:backgroundTint="@color/Pastel_Am"/>
+
+    <Button
+        android:id="@+id/btnPie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grafica de Pie"
+        android:backgroundTint="@color/Pastel_VA"/>
+
+</LinearLayout>

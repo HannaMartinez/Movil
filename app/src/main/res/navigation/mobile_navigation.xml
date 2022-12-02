@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.AnnyCases.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_Descuento"
+        android:name="com.example.AnnyCases.ui.Descuento.DescuentoFragment"
+        android:label="@string/menu_Descuento"
+        tools:layout="@layout/fragment_descuento" />
+
+    <fragment
+        android:id="@+id/nav_Modelos"
+        android:name="com.example.AnnyCases.ui.Modelos.ModelosFragment"
+        android:label="@string/menu_Modelos"
+        tools:layout="@layout/fragment_modelos" />
+    <fragment
+        android:id="@+id/nav_Usuarios"
+        android:name="com.example.AnnyCases.ui.Usuario.UsuarioFragment"
+        android:label="@string/menu_Usuario"
+        tools:layout="@layout/fragment_usuario" />
+    <fragment
+        android:id="@+id/nav_Somos"
+        android:name="com.example.AnnyCases.SomosFragment"
+        android:label="@string/menu_QSomos"
+        tools:layout="@layout/fragment_somos" />
+</navigation>

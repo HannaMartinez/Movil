@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--tambien hay otra forma de poner el ancho y el lago conforme a l texto y
+es wrap_content, el MainActivity sirve para casar JAVA con el XML-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <!--Propiedades del texto, gravity es para acomodar cualquier cosa,
+    es decir como centrarlo-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUMADORA"
+        android:gravity="center"
+        android:textColor="@color/azul_medio"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        />
+
+    <EditText
+        android:id="@+id/etNumero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Numero 1"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <EditText
+        android:id="@+id/etNumero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="Numero 2"
+        />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        />
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

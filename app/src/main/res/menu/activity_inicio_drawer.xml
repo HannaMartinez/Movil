@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Bienvenido ! ">
+            <menu>
+                <group android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/nav_favoritos"
+                        android:icon="@drawable/ic_baseline_grade_24"
+                        android:title="Favoritos"/>
+                    <item
+                        android:id="@+id/nav_inicio"
+                        android:icon="@drawable/manualidades"
+                        android:title="Manualidades"/>
+                    <item
+                        android:id="@+id/nav_Empresa"
+                        android:icon="@drawable/agua"
+                        android:title="Donde Puedo Reciclar?"/>
+                    <item
+                        android:id="@+id/nav_addman"
+                        android:icon="@drawable/manualidad"
+                        android:title="Mis Ideas!"/>
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>
